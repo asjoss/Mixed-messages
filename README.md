@@ -1,4 +1,4 @@
-#My Mixed messages project
+# My Mixed messages project
 
 For this project I am going to build a message generator program so everytime a user runs it
 a new random message will be generated and displayed on the webpage.
