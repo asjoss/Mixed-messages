@@ -7,5 +7,14 @@ let quotes = [
     "Man up", "Take the emotion out of it", "Don\'t worry about what other people think about you.",
     "If they don\'t like you, they\'re just jealous of you.", "Don\'t take things so personally.",
     "Sticks and stones may break your bones but words can never hurt you.", 
-    "Good things come to those who wait.", "Follow your passion",
+    "Good things come to those who wait.", "Follow your passion", "Invest in crypto",
+    "Have another drink to cure a hangover", ""
 ]
+
+const randQuote = () => {
+    let randomNumb = Math.floor(Math.random() * (quotes.length));
+    document.getElementById("quoteDisplay").innerHTML = quotes[randomNumb];
+}
+
+
+
